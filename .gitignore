@@ -1,0 +1,36 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+
+int main(){
+
+
+   int value, base, result = 0, size, i 
+   
+   printf ("chose a base");
+   scanf ("%/d, &base");
+   
+    if ("base>1 or base<10);
+    printf("this is not a base!"\n);  
+     return -1
+    
+  if ("base<1 or base>10);
+    printf("enter a number for base"\n);
+    scanf("%d& integer");
+    
+  if (value>0)
+     printf("Negative numbers aren't acceptable"\n);
+     
+   sprintf(tmp, "%d\n", value);
+        size = strlen(tmp);
+        
+        for(i=0; i<size-1; i++){
+                if(tmp[i]-'0'>=base){
+                        printf("Your number is not encoded in the correct base\n");
+                        return -1;
+                }
+                result+=(tmp[i]-'0')*(int)pow(base, size-2-i);
+        }
+        printf("base: %d, input: %d, output: %d\n", base, value, result);
+        return 0;
+}
