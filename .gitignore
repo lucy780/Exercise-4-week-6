@@ -7,14 +7,14 @@ int main(){
 
    int value, base, result = 0, size, i 
    
-   printf ("chose a base");
+   printf ("choose a base");
    scanf ("%/d, &base");
    
-    if ("base>1 or base<10);
+    if ("base>1||base<10);
     printf("this is not a base!"\n);  
      return -1
     
-  if ("base<1 or base>10);
+  if ("base<1||base>10);
     printf("enter a number for base"\n);
     scanf("%d& integer");
     
